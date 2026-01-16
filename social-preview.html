@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>KashCake Social Preview</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: #1a1a1a;
+        }
+        .preview {
+            width: 1280px;
+            height: 640px;
+            background: #26A69A;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+        }
+        .icon-container {
+            display: flex;
+            align-items: center;
+            gap: 40px;
+        }
+        .app-name {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            font-size: 72px;
+            font-weight: 600;
+            color: white;
+            text-shadow: 0 2px 8px rgba(0,0,0,0.2);
+        }
+        .tagline {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            font-size: 28px;
+            color: rgba(255,255,255,0.9);
+            position: absolute;
+            bottom: 60px;
+        }
+    </style>
+</head>
+<body>
+    <div class="preview">
+        <div class="icon-container">
+            <svg width="280" height="280" viewBox="0 0 108 108">
+                <!-- Unicorn with birthday cake -->
+                <g transform="scale(1.6) translate(26, 18)">
+                    <!-- Birthday cake base (pink frosting) -->
+                    <path fill="#FFB8B8" d="M10,52 L56,52 L56,58 Q33,62 10,58 Z"/>
+                    <!-- Cake layer (cream/white) -->
+                    <path fill="#FFF5E6" d="M12,46 L54,46 L54,52 L12,52 Z"/>
+                    <!-- Frosting drips -->
+                    <path fill="#FFB8B8" d="M14,46 Q14,49 16,49 Q18,49 18,46"/>
+                    <path fill="#FFB8B8" d="M26,46 Q26,50 28,50 Q30,50 30,46"/>
+                    <path fill="#FFB8B8" d="M40,46 Q40,48 42,48 Q44,48 44,46"/>
+                    <!-- Sprinkles on cake -->
+                    <path fill="#FF6B6B" d="M16,48 L18,49"/>
+                    <path fill="#FFD93D" d="M24,49 L26,48"/>
+                    <path fill="#6BCB77" d="M34,48 L36,49"/>
+                    <path fill="#4D96FF" d="M44,49 L46,48"/>
+                    <path fill="#9B59B6" d="M50,48 L52,49"/>
+                    <!-- Unicorn face (white circle) -->
+                    <path fill="#FFFFFF" d="M17,32 C17,24 24,17 33,17 C42,17 49,24 49,32 C49,40 42,47 33,47 C24,47 17,40 17,32 Z"/>
+                    <!-- Candle on horn (rainbow spiral) -->
+                    <path fill="#FF6B6B" d="M31,2 L35,2 L35,17 L31,17 Z"/>
+                    <path fill="#FFD93D" d="M31,5 L35,5 L35,8 L31,8 Z"/>
+                    <path fill="#6BCB77" d="M31,11 L35,11 L35,14 L31,14 Z"/>
+                    <!-- Candle flame -->
+                    <path fill="#FFD93D" d="M33,-2 Q36,1 33,4 Q30,1 33,-2 Z"/>
+                    <path fill="#FF9F43" d="M33,0 Q34,1 33,3 Q32,1 33,0 Z"/>
+                    <!-- Rainbow mane - left side -->
+                    <path fill="#FF6B6B" d="M17,27 Q10,25 8,32 Q10,34 17,33 Z"/>
+                    <path fill="#FF9F43" d="M16,30 Q9,29 7,35 Q9,37 16,36 Z"/>
+                    <path fill="#FFD93D" d="M16,33 Q9,33 8,39 Q10,41 17,39 Z"/>
+                    <path fill="#6BCB77" d="M17,36 Q11,37 10,43 Q12,44 18,42 Z"/>
+                    <path fill="#4D96FF" d="M19,39 Q14,41 14,46 Q16,47 21,44 Z"/>
+                    <!-- Eyes (cute kawaii style) -->
+                    <path fill="#2D3436" d="M26,31 C26,29.34 27.34,28 29,28 C30.66,28 32,29.34 32,31 C32,32.66 30.66,34 29,34 C27.34,34 26,32.66 26,31 Z"/>
+                    <path fill="#2D3436" d="M38,31 C38,29.34 39.34,28 41,28 C42.66,28 44,29.34 44,31 C44,32.66 42.66,34 41,34 C39.34,34 38,32.66 38,31 Z"/>
+                    <!-- Eye sparkles -->
+                    <path fill="#FFFFFF" d="M27,30 C27,29.45 27.45,29 28,29 C28.55,29 29,29.45 29,30 C29,30.55 28.55,31 28,31 C27.45,31 27,30.55 27,30 Z"/>
+                    <path fill="#FFFFFF" d="M39,30 C39,29.45 39.45,29 40,29 C40.55,29 41,29.45 41,30 C41,30.55 40.55,31 40,31 C39.45,31 39,30.55 39,30 Z"/>
+                    <!-- Blush cheeks (pink) -->
+                    <path fill="#FFB8B8" d="M23,37 C23,35.9 23.9,35 25,35 C26.1,35 27,35.9 27,37 C27,38.1 26.1,39 25,39 C23.9,39 23,38.1 23,37 Z"/>
+                    <path fill="#FFB8B8" d="M43,37 C43,35.9 43.9,35 45,35 C46.1,35 47,35.9 47,37 C47,38.1 46.1,39 45,39 C43.9,39 43,38.1 43,37 Z"/>
+                    <!-- Cute smile -->
+                    <path fill="none" stroke="#2D3436" stroke-width="1.5" stroke-linecap="round" d="M30,40 Q33,43 36,40"/>
+                    <!-- Small ear -->
+                    <path fill="#FFFFFF" d="M20,21 Q18,17 22,15 Q24,17 23,21 Z"/>
+                    <path fill="#FFB8B8" d="M21,20 Q20,18 22,17 Q23,18 22.5,20 Z"/>
+                </g>
+            </svg>
+            <span class="app-name">KashCake</span>
+        </div>
+        <span class="tagline">Birthday reminders made simple</span>
+    </div>
+</body>
+</html>

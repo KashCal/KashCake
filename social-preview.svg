@@ -1,0 +1,51 @@
+<svg width="1280" height="640" viewBox="0 0 1280 640" xmlns="http://www.w3.org/2000/svg">
+    <!-- Teal background -->
+    <rect width="1280" height="640" fill="#26A69A"/>
+
+    <!-- Unicorn icon centered -->
+    <g transform="translate(420, 120) scale(3.5)">
+        <g transform="scale(1.6) translate(26, 18)">
+            <!-- Birthday cake base (pink frosting) -->
+            <path fill="#FFB8B8" d="M10,52 L56,52 L56,58 Q33,62 10,58 Z"/>
+            <!-- Cake layer (cream/white) -->
+            <path fill="#FFF5E6" d="M12,46 L54,46 L54,52 L12,52 Z"/>
+            <!-- Frosting drips -->
+            <path fill="#FFB8B8" d="M14,46 Q14,49 16,49 Q18,49 18,46"/>
+            <path fill="#FFB8B8" d="M26,46 Q26,50 28,50 Q30,50 30,46"/>
+            <path fill="#FFB8B8" d="M40,46 Q40,48 42,48 Q44,48 44,46"/>
+            <!-- Unicorn face (white circle) -->
+            <path fill="#FFFFFF" d="M17,32 C17,24 24,17 33,17 C42,17 49,24 49,32 C49,40 42,47 33,47 C24,47 17,40 17,32 Z"/>
+            <!-- Candle on horn (rainbow spiral) -->
+            <path fill="#FF6B6B" d="M31,2 L35,2 L35,17 L31,17 Z"/>
+            <path fill="#FFD93D" d="M31,5 L35,5 L35,8 L31,8 Z"/>
+            <path fill="#6BCB77" d="M31,11 L35,11 L35,14 L31,14 Z"/>
+            <!-- Candle flame -->
+            <path fill="#FFD93D" d="M33,-2 Q36,1 33,4 Q30,1 33,-2 Z"/>
+            <path fill="#FF9F43" d="M33,0 Q34,1 33,3 Q32,1 33,0 Z"/>
+            <!-- Rainbow mane - left side -->
+            <path fill="#FF6B6B" d="M17,27 Q10,25 8,32 Q10,34 17,33 Z"/>
+            <path fill="#FF9F43" d="M16,30 Q9,29 7,35 Q9,37 16,36 Z"/>
+            <path fill="#FFD93D" d="M16,33 Q9,33 8,39 Q10,41 17,39 Z"/>
+            <path fill="#6BCB77" d="M17,36 Q11,37 10,43 Q12,44 18,42 Z"/>
+            <path fill="#4D96FF" d="M19,39 Q14,41 14,46 Q16,47 21,44 Z"/>
+            <!-- Eyes -->
+            <circle fill="#2D3436" cx="29" cy="31" r="3"/>
+            <circle fill="#2D3436" cx="41" cy="31" r="3"/>
+            <!-- Eye sparkles -->
+            <circle fill="#FFFFFF" cx="28" cy="30" r="1"/>
+            <circle fill="#FFFFFF" cx="40" cy="30" r="1"/>
+            <!-- Blush cheeks -->
+            <circle fill="#FFB8B8" cx="25" cy="37" r="2"/>
+            <circle fill="#FFB8B8" cx="45" cy="37" r="2"/>
+            <!-- Cute smile -->
+            <path fill="none" stroke="#2D3436" stroke-width="1.5" stroke-linecap="round" d="M30,40 Q33,43 36,40"/>
+            <!-- Small ear -->
+            <path fill="#FFFFFF" d="M20,21 Q18,17 22,15 Q24,17 23,21 Z"/>
+            <path fill="#FFB8B8" d="M21,20 Q20,18 22,17 Q23,18 22.5,20 Z"/>
+        </g>
+    </g>
+
+    <!-- App name -->
+    <text x="640" y="560" font-family="Arial, sans-serif" font-size="48" font-weight="600" fill="white" text-anchor="middle">KashCake</text>
+    <text x="640" y="600" font-family="Arial, sans-serif" font-size="24" fill="rgba(255,255,255,0.85)" text-anchor="middle">Birthday reminders made simple</text>
+</svg>
