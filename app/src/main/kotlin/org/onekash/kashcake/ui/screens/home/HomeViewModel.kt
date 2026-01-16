@@ -44,7 +44,10 @@ class HomeViewModel @Inject constructor(
                 }.sortedBy { it.day }
 
                 val today = birthdays.filter { it.isBirthdayToday() }
-                val upcoming = birthdays.filter { !it.isBirthdayToday() }
+                // Exclude birthdays already shown in thisMonthPast
+                val upcoming = birthdays.filter {
+                    !it.isBirthdayToday() && !(it.month == currentMonth && it.day < currentDay)
+                }
 
                 HomeUiState(
                     thisMonthPastBirthdays = thisMonthPast,
@@ -60,11 +63,8 @@ class HomeViewModel @Inject constructor(
     }
 
     fun syncContacts() {
-        viewModelScope.launch {
-            _uiState.value = _uiState.value.copy(isSyncing = true)
-            contactSyncManager.syncBirthdays()
-            _uiState.value = _uiState.value.copy(isSyncing = false)
-        }
+        // Trigger sync via WorkManager - UI updates via Flow when database changes
+        contactSyncManager.triggerSync()
     }
 }
 

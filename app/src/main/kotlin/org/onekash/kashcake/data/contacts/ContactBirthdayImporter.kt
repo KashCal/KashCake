@@ -75,7 +75,9 @@ class ContactBirthdayImporter @Inject constructor(
             return emptyList()
         }
 
-        return birthdays
+        // Deduplicate by (name, month, day) - same person may appear multiple times
+        // when contact is saved to both local storage and Google/cloud accounts
+        return birthdays.distinctBy { Triple(it.displayName, it.month, it.day) }
     }
 
     /**

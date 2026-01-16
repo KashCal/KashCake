@@ -56,7 +56,7 @@ class SettingsViewModel @Inject constructor(
         viewModelScope.launch {
             dataStore.setContactsSyncEnabled(enabled)
             if (enabled) {
-                contactSyncManager.syncBirthdays()
+                contactSyncManager.triggerSync()
             }
         }
     }
@@ -68,11 +68,8 @@ class SettingsViewModel @Inject constructor(
     }
 
     fun syncContactsNow() {
-        viewModelScope.launch {
-            _uiState.value = _uiState.value.copy(isSyncing = true)
-            contactSyncManager.syncBirthdays()
-            _uiState.value = _uiState.value.copy(isSyncing = false)
-        }
+        // Trigger sync via WorkManager - UI updates via Flow when database changes
+        contactSyncManager.triggerSync()
     }
 }
 
