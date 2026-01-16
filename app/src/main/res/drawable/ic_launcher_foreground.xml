@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Unicorn with birthday cake - rainbow theme -->
+    <group
+        android:scaleX="1.6"
+        android:scaleY="1.6"
+        android:translateX="26"
+        android:translateY="18">
+
+        <!-- Birthday cake base (pink frosting) -->
+        <path
+            android:fillColor="#FFB8B8"
+            android:pathData="M10,52 L56,52 L56,58 Q33,62 10,58 Z"/>
+
+        <!-- Cake layer (cream/white) -->
+        <path
+            android:fillColor="#FFF5E6"
+            android:pathData="M12,46 L54,46 L54,52 L12,52 Z"/>
+
+        <!-- Frosting drips -->
+        <path
+            android:fillColor="#FFB8B8"
+            android:pathData="M14,46 Q14,49 16,49 Q18,49 18,46"/>
+        <path
+            android:fillColor="#FFB8B8"
+            android:pathData="M26,46 Q26,50 28,50 Q30,50 30,46"/>
+        <path
+            android:fillColor="#FFB8B8"
+            android:pathData="M40,46 Q40,48 42,48 Q44,48 44,46"/>
+
+        <!-- Sprinkles on cake -->
+        <path
+            android:fillColor="#FF6B6B"
+            android:pathData="M16,48 L18,49"/>
+        <path
+            android:fillColor="#FFD93D"
+            android:pathData="M24,49 L26,48"/>
+        <path
+            android:fillColor="#6BCB77"
+            android:pathData="M34,48 L36,49"/>
+        <path
+            android:fillColor="#4D96FF"
+            android:pathData="M44,49 L46,48"/>
+        <path
+            android:fillColor="#9B59B6"
+            android:pathData="M50,48 L52,49"/>
+
+        <!-- Unicorn face (white circle) - positioned on cake -->
+        <path
+            android:fillColor="#FFFFFF"
+            android:pathData="M17,32 C17,24 24,17 33,17 C42,17 49,24 49,32 C49,40 42,47 33,47 C24,47 17,40 17,32 Z"/>
+
+        <!-- Candle on horn (rainbow spiral) -->
+        <path
+            android:fillColor="#FF6B6B"
+            android:pathData="M31,2 L35,2 L35,17 L31,17 Z"/>
+        <path
+            android:fillColor="#FFD93D"
+            android:pathData="M31,5 L35,5 L35,8 L31,8 Z"/>
+        <path
+            android:fillColor="#6BCB77"
+            android:pathData="M31,11 L35,11 L35,14 L31,14 Z"/>
+
+        <!-- Candle flame -->
+        <path
+            android:fillColor="#FFD93D"
+            android:pathData="M33,-2 Q36,1 33,4 Q30,1 33,-2 Z"/>
+        <path
+            android:fillColor="#FF9F43"
+            android:pathData="M33,0 Q34,1 33,3 Q32,1 33,0 Z"/>
+
+        <!-- Rainbow mane - left side -->
+        <path
+            android:fillColor="#FF6B6B"
+            android:pathData="M17,27 Q10,25 8,32 Q10,34 17,33 Z"/>
+        <path
+            android:fillColor="#FF9F43"
+            android:pathData="M16,30 Q9,29 7,35 Q9,37 16,36 Z"/>
+        <path
+            android:fillColor="#FFD93D"
+            android:pathData="M16,33 Q9,33 8,39 Q10,41 17,39 Z"/>
+        <path
+            android:fillColor="#6BCB77"
+            android:pathData="M17,36 Q11,37 10,43 Q12,44 18,42 Z"/>
+        <path
+            android:fillColor="#4D96FF"
+            android:pathData="M19,39 Q14,41 14,46 Q16,47 21,44 Z"/>
+
+        <!-- Eyes (cute kawaii style) -->
+        <path
+            android:fillColor="#2D3436"
+            android:pathData="M26,31 C26,29.34 27.34,28 29,28 C30.66,28 32,29.34 32,31 C32,32.66 30.66,34 29,34 C27.34,34 26,32.66 26,31 Z"/>
+        <path
+            android:fillColor="#2D3436"
+            android:pathData="M38,31 C38,29.34 39.34,28 41,28 C42.66,28 44,29.34 44,31 C44,32.66 42.66,34 41,34 C39.34,34 38,32.66 38,31 Z"/>
+
+        <!-- Eye sparkles -->
+        <path
+            android:fillColor="#FFFFFF"
+            android:pathData="M27,30 C27,29.45 27.45,29 28,29 C28.55,29 29,29.45 29,30 C29,30.55 28.55,31 28,31 C27.45,31 27,30.55 27,30 Z"/>
+        <path
+            android:fillColor="#FFFFFF"
+            android:pathData="M39,30 C39,29.45 39.45,29 40,29 C40.55,29 41,29.45 41,30 C41,30.55 40.55,31 40,31 C39.45,31 39,30.55 39,30 Z"/>
+
+        <!-- Blush cheeks (pink) -->
+        <path
+            android:fillColor="#FFB8B8"
+            android:pathData="M23,37 C23,35.9 23.9,35 25,35 C26.1,35 27,35.9 27,37 C27,38.1 26.1,39 25,39 C23.9,39 23,38.1 23,37 Z"/>
+        <path
+            android:fillColor="#FFB8B8"
+            android:pathData="M43,37 C43,35.9 43.9,35 45,35 C46.1,35 47,35.9 47,37 C47,38.1 46.1,39 45,39 C43.9,39 43,38.1 43,37 Z"/>
+
+        <!-- Cute smile -->
+        <path
+            android:fillColor="#2D3436"
+            android:strokeWidth="0"
+            android:pathData="M30,40 Q33,43 36,40"
+            android:strokeColor="#2D3436"
+            android:strokeLineCap="round"/>
+
+        <!-- Small ear -->
+        <path
+            android:fillColor="#FFFFFF"
+            android:pathData="M20,21 Q18,17 22,15 Q24,17 23,21 Z"/>
+        <path
+            android:fillColor="#FFB8B8"
+            android:pathData="M21,20 Q20,18 22,17 Q23,18 22.5,20 Z"/>
+
+    </group>
+</vector>
